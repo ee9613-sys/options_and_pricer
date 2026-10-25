@@ -1,7 +1,7 @@
-# Java Projects
+# Order Book & Option Pricing (Java)
 
-A set of Java projects exploring object-oriented design, an exchange-style
-order-matching engine, and option pricing.
+Two Java projects: an exchange-style order-matching engine and an option-pricing
+cross-check.
 
 ## Order Book & Matching Engine (`OrderBook/`)
 An exchange-style limit order book with price–time priority matching.
@@ -20,15 +20,9 @@ Prices European options two independent ways and cross-checks them.
 - **Key classes:** `BlackScholesPricer`, `GBMModel`, `MonteCarloPriceCalc`,
   `PriceModel`, `Pricer`, `Main`.
 
-## Bank System (`BankSystem/`)
-A small banking model built to practise core object-oriented design.
-- An abstract `Account` base type with `CurrentAccount` and `SavingsAccount`
-  subclasses (inheritance and polymorphism), managed through a `Bank` class.
-- **Key classes:** `Account`, `CurrentAccount`, `SavingsAccount`, `Bank`, `Main`.
-
 ## Running
-Each project has its own `Main`. Open the repository in IntelliJ IDEA and run
-the `Main` class in the package you want to try.
+Each project has its own `Main`. Open the folder in IntelliJ IDEA and run the
+`Main` class in the project you want to try.
 
 ## Tech
 Java · IntelliJ IDEA
